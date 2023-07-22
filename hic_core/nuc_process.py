@@ -3107,8 +3107,8 @@ def nuc_process(fastq_paths, genome_index, genome_index2, re1, re2=None, chr_nam
   Main function for command-line operation
   """
   
-  from hic_core.nuc_process_report import nuc_process_report
-  from hic_core.sc_hic_disambiguate import sc_hic_disambiguate
+  from nuc_process_report import nuc_process_report
+  from sc_hic_disambiguate import sc_hic_disambiguate
   from tools.contact_map import contact_map
   from tools.ncc_bin import bin_ncc
   
